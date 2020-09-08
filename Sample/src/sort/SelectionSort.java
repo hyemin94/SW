@@ -15,19 +15,19 @@ public class SelectionSort {
 			System.out.println("data[" + i + "] : " + data[i]);
 		}
 		System.out.println();
-		
-		for (int i=0; i<size-1; i++) {
-			min = i;	
-			for(int j=i+1; j < size; j++) {
-				if(data[min] > data[j]) {
+
+		for (int i = 0; i < size - 1; i++) {
+			min = i;
+			for (int j = i + 1; j < size; j++) {
+				if (data[min] > data[j]) {
 					min = j;
 				}
 			}
 			temp = data[min];
 			data[min] = data[i];
 			data[i] = temp;
-			System.out.println("data["+i+"] : " + temp);
-			
-		}		
+			System.out.println("data[" + i + "] : " + temp);
+
+		}
 	}
 }

@@ -18,4 +18,8 @@ public class GenericPrinter<T extends Meterial> {
 		return material.toString();
 	}
 	
+	public void printing() {
+		material.doPriting();
+	}
+	
 }

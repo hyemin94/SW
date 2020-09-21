@@ -13,6 +13,9 @@ public class GenericPrintaerTest {
 		plasticPrinter.setMaterial(plastic);
 		System.out.println(plasticPrinter);
 		
+		powderPrinter.printing();
+		plasticPrinter.printing();
+		
 	}
 
 }

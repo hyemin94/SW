@@ -1,4 +1,4 @@
-package doit_algorithm;
+package doit_algorithm_chap01;
 
 public class Min3 {
 

@@ -21,6 +21,7 @@ class GenericClasstESTER {
 
 		System.out.println(s.getXyz());
 		System.out.println(n.getXyz());
+		
 		System.out.println(b.getXyz());
 	}
 

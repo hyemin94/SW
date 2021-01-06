@@ -1,6 +1,8 @@
-package Doit_chap04;
+package Doit_chap05;
 
 import java.util.Scanner;
+
+import Doit_chap04.IntStack;
 
 // 재귀함수 이해하기
 class Recur {

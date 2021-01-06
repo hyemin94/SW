@@ -1,4 +1,4 @@
-package Doit_chap04;
+package Doit_chap05;
 
 import java.util.Scanner;
 

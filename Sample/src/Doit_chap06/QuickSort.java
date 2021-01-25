@@ -2,7 +2,7 @@ package Doit_chap06;
 
 import java.util.Scanner;
 
-// 퀵정렬
+// 퀵정렬 : p.231
 class QuickSort {
 	static void swap(int[] a, int idx1, int idx2) {
 		int t = a[idx1];

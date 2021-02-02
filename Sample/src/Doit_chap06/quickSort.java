@@ -3,7 +3,7 @@ package Doit_chap06;
 import java.util.Scanner;
 
 // 퀵정렬 : p.231
-class QuickSort {
+class quickSort {
 	static void swap(int[] a, int idx1, int idx2) {
 		int t = a[idx1];
 		a[idx1] = a[idx2];
@@ -47,6 +47,7 @@ class QuickSort {
 		System.out.println("오름차순으로 정렬했습니다.");
 		for (int i = 0; i < nx; i++) {
 			System.out.print("x[" + i + "] : " + x[i]);
+			
 			System.out.println();
 		}
 
